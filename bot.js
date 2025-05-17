@@ -45,7 +45,7 @@ async function checkout(page) {
 }
 
 async function monitor(page) {
-    //await page.goto("https://uk.gymshark.com/products/gymshark-onyx-5-0-seamless-long-sleeve-t-shirt-ls-tops-black-ss24")
+    //link for long sleeve: await page.goto("https://uk.gymshark.com/products/gymshark-onyx-5-0-seamless-long-sleeve-t-shirt-ls-tops-black-ss24")
     await page.goto("https://uk.gymshark.com/products/gymshark-onyx-5-0-seamless-tight-pants-black-aw24")
     await setTimeout(4000) // any shorter triggers a sign in :(
 
